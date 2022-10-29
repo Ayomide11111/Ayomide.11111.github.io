@@ -1,6 +1,6 @@
 ```mermaid
  graph TD;
-     0c1e7 blob-->163b4 tree;
+     {0c1e7 blob}-->{163b4 tree};
      0c1e7 blob-->48a6f commit;
      48a6f commit-->83baa blob;
      83baa blob-->d6704 blob;
