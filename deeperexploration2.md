@@ -34,7 +34,7 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
 
 - BITWISE OR TABLE
 
- | A | B | A `|` B |
+ | A | B | A | B |
  |---|---| ------ |
  | 0 | 0 | 0 |
  | 0 | 1 | 1 |
