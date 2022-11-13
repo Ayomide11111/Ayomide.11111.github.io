@@ -78,7 +78,7 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  The bitwise NOT operator (`~`) operates on just one operand. For each bit in the sequence, it simply flips the bit such that a zero becomes a one or vice versa. Table 4 shows the truth table for the bitwise NOT operator.
  
  - BITWISE NOT TABLE
- | A |`A |
+ | A |!A |
  |---|---|
  | 0 | 1 |
  | 1 | 0 |
@@ -126,10 +126,11 @@ std::cout << "The result of the bitwise operation is: " << ~x << std::endl;
         std::cout << " x is odd" << std::endl;
     }
  }
-
+```
 2. Swapping variables without using a third variable
  The swapping of two variables without involving a third variable can be achieved without the bitwise operators, but since you already know bitwise operators, why not?
- C++ CODE
+ ```C++
+ # C++ CODE
  ----------------------
  #include <iostream>
  int main(){
@@ -145,8 +146,10 @@ std::cout << "The result of the bitwise operation is: " << ~x << std::endl;
   //after swapping
   std::cout << a << b << std::endl;
   return 0;
+ ```
 
 3. Converting text casing
+```C++
   C++ CODE
   ---------------------
   #include <iostream>
