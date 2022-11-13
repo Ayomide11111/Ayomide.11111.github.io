@@ -6,8 +6,9 @@
  The bitwise AND operator (`&`) evaluates two input bit sequences. For each digit of the inputs, it outputs a 1 in the corresponding position of the output if both inputs are 1 in that position. Otherwise, it outputs a 0 for the digit. The table below shows the truth table for the bitwise AND of two values, A and B.
 
  - BITWISE  AND TABLE
+ 
  | A | B | A & B |
- | --- | --- | ------ |
+ |---|---| ------ |
  | 0 | 0 | 0 |
  | 0 | 1 | 0 |
  | 1 | 0 | 0 |
