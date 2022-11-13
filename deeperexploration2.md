@@ -15,8 +15,8 @@
 
  For example,to bitwise  AND `0b011010` with `0b110110`, start by lining up the two sequences. Checking vertically through each digit, set the result of the column to 1 if both digits are 1. So the result will be:
  >        011010
-  AND     110110
-  Result: 010010 
+   AND     110110
+   Result: 010010 
 
  In c++ programming language, to perform bitwise AND we place the bitwise AND operator `&` between two operand variables. An example is:
 
@@ -39,8 +39,8 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  | 1 | 1 | 1 |
  For example, to bitwise OR `0b011010` with `0b110110`, start by lining up the two sequences. Checking vertically through each digit, set the result of the column to 1 if either digit is 1:
  >        011010
-  OR      110110
-  Result: 111110 
+   OR      110110
+   Result: 111110 
  
  In c++ programming language, to perform bitwise AND we place the bitwise AND operator `|` between two operand variables. An example is:
 
@@ -63,8 +63,8 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  | 1 | 1 | 0 |
  For example, to bitwise XOR `0b011010` with `0b110110`, start by lining up the two sequences. Checking vertically through each digit, set the result of the column to 1 if either digit is 1:
  >        011010
-  XOR     110110
-  Result: 101100 
+   XOR     110110
+   Result: 101100 
  
  In c++ programming language, to perform bitwise AND we place the bitwise AND operator `^` between two operand variables. An example is:
  - C++ CODE
