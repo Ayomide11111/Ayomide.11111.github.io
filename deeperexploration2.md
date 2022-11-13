@@ -6,8 +6,8 @@
  The bitwise AND operator (`&`) evaluates two input bit sequences. For each digit of the inputs, it outputs a 1 in the corresponding position of the output if both inputs are 1 in that position. Otherwise, it outputs a 0 for the digit. The table below shows the truth table for the bitwise AND of two values, A and B.
 
  - BITWISE  AND TABLE
- | A | B | A & B|
- |---|---|------|
+ | A | B | A & B |
+ | --- | --- | ------ |
  | 0 | 0 | 0 |
  | 0 | 1 | 0 |
  | 1 | 0 | 0 |
@@ -31,8 +31,8 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  The bitwise OR operator (`|`) behaves like the bitwise AND operator except that it outputs a 1 for a digit if either or both of the inputs is 1 in the corresponding position. Otherwise, it outputs a 0 for the digit. The below table shows the truth table for the bitwise OR of two values, A and B.
 
 - BITWISE OR TABLE
- | A | B | A | B|
- |---|---|----|
+ | A | B | A|B |
+ | --- | --- | ---- |
  | 0 | 0 | 0 |
  | 0 | 1 | 1 |
  | 1 | 0 | 1 |
@@ -56,7 +56,7 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
 
 - BITWISE XOR TABLE
  | A | B | A ^ B|
- |---|---|------|
+ | --- | --- | ------ |
  | 0 | 0 | 0 |
  | 0 | 1 | 1 |
  | 1 | 0 | 1 |
@@ -79,7 +79,7 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  
  - BITWISE NOT TABLE
  | A |!A |
- |---|---|
+ | --- | --- |
  | 0 | 1 |
  | 1 | 0 |
 
