@@ -40,6 +40,7 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  | 0 | 1 | 1 |
  | 1 | 0 | 1 |
  | 1 | 1 | 1 |
+
  For example, to bitwise OR `0b011010` with `0b110110`, start by lining up the two sequences. Checking vertically through each digit, set the result of the column to 1 if either digit is 1:
  >        011010
    OR      110110
@@ -59,13 +60,14 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
 
 - BITWISE XOR TABLE
 
-
  | A | B | A ^ B |
  |---|---| ------ |
  | 0 | 0 | 0 |
  | 0 | 1 | 1 |
  | 1 | 0 | 1 |
  | 1 | 1 | 0 |
+
+ 
  For example, to bitwise XOR `0b011010` with `0b110110`, start by lining up the two sequences. Checking vertically through each digit, set the result of the column to 1 if either digit is 1:
  >        011010
    XOR     110110
