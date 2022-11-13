@@ -22,7 +22,7 @@
 
  In c++ programming language, to perform bitwise AND we place the bitwise AND operator `&` between two operand variables. An example is:
 
-# C++ CODE
+- C++ CODE
 int x = 26;
 int y = 54;
 int result = x & y;
@@ -34,7 +34,7 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
 
 - BITWISE OR TABLE
  | A | B | A|B |
- |---|---|----- |
+ |---|---| ------ |
  | 0 | 0 | 0 |
  | 0 | 1 | 1 |
  | 1 | 0 | 1 |
