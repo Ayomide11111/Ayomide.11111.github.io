@@ -32,8 +32,8 @@ std::cout << "The result of the bitwise operation is: " << result << std::endl;
  The bitwise OR operator (`|`) behaves like the bitwise AND operator except that it outputs a 1 for a digit if either or both of the inputs is 1 in the corresponding position. Otherwise, it outputs a 0 for the digit. The below table shows the truth table for the bitwise OR of two values, A and B.
 
 - BITWISE OR TABLE
- | A | B | A|B |
- | --- | --- | ---- |
+ | A    | B    | A|B |
+ | --- | ---- | ---- |
  | 0 | 0 | 0 |
  | 0 | 1 | 1 |
  | 1 | 0 | 1 |
