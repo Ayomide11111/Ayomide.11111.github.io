@@ -14,9 +14,10 @@
  | 1 | 1 | 1 |
 
  For example,to bitwise  AND `0b011010` with `0b110110`, start by lining up the two sequences. Checking vertically through each digit, set the result of the column to 1 if both digits are 1. So the result will be:
- >        011010
-   AND     110110
-   Result: 010010 
+ >      
+ >          011010
+ > AND     110110
+ >  Result: 010010 
 
  In c++ programming language, to perform bitwise AND we place the bitwise AND operator `&` between two operand variables. An example is:
 
